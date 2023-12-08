@@ -1,9 +1,17 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import NumericTimer from '@/components/NumericTimer.vue';
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <NumericTimer />
   </main>
 </template>
+
+<style scoped>
+main {
+  display: flex;
+  flex-direction: column;
+}
+</style>
